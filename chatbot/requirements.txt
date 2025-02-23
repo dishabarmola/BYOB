@@ -38,4 +38,4 @@ urllib3==2.2.2
 Werkzeug==3.0.3
 spacy==3.5.0
 flask_cors==3.0.10
-gunicorn 23.0.0
+gunicorn==23.0.0
