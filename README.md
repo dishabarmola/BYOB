@@ -4,9 +4,8 @@
 
 ### Prerequisites
 
-1. Python 3.x installed on your system.
-2. Install the required Python packages.
-
+1. Node.js installed on your system.
+2. npm (Node Package Manager) installed on your system.
 ### Installation
 
 1. Clone the repository or download the project files.
@@ -16,10 +15,10 @@
 cd /c:/Users/disha/OneDrive/Desktop/mm/FinAssist
 ```
 
-3. Install the required dependencies using pip.
+Install the required dependencies using npm.
 
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
 ### Configuration
@@ -35,13 +34,14 @@ Replace `your_google_gemini_api_key_here` with your actual Google Gemini API key
 
 ### Running the Application
 
-1. Run the Flask application.
+1. Start the development server.
+
 
 ```bash
-python app.py
+npm run dev
 ```
 
-2. Open your web browser and go to `http://127.0.0.1:5000/` to access the application.
+2. Open your web browser and go to http://localhost:3000/ to access the application.
 
 ### Additional Notes
 
