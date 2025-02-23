@@ -12,7 +12,7 @@
 2. Navigate to the project directory.
 
 ```bash
-cd /c:/Users/disha/OneDrive/Desktop/mm/FinAssist
+cd C:/Users/disha/Desktop/leaninhack/BYOB/frontend
 ```
 
 Install the required dependencies using npm.
@@ -21,16 +21,19 @@ Install the required dependencies using npm.
 npm install
 ```
 
-### Configuration
+### Building the Application
 
-1. Create a `config.ini` file in the project directory with the following content:
+1. Build the application for production.
 
-```ini
-[API_KEYS]
-GOOGLE_GEMINI_API_KEY=your_google_gemini_api_key_here
+```bash
+npm run build
 ```
 
-Replace `your_google_gemini_api_key_here` with your actual Google Gemini API key.
+2. Preview the production build.
+   ```bash
+npm run preview
+```
+   
 
 ### Running the Application
 
