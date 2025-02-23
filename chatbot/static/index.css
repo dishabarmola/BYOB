@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.chat-container {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #ff4d4d; /* Slight red color for border */
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 300px;
+    overflow-y: scroll;
+}
+
+.user-msg {
+    text-align: right;
+    color: #ff4d4d; /* Slight red color for user messages */
+}
+
+.bot-msg {
+    text-align: left;
+    color: #333;
+}
+
+.msg {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    max-width: 70%;
+}
+
+.user {
+    float: right;
+}
+
+.bot {
+    float: left;
+}
+
+input[type="text"] {
+    width: 1000px; /* Match the width of the chat container */
+    padding: 10px;
+    margin: 10px auto; /* Center the input box */
+    border: 1px solid #ff4d4d; /* Slight red color for border */
+    border-radius: 5px;
+    font-size: 16px;
+    display: block; /* Center the input box */
+}
+
+input[type="submit"] {
+    width: 1000px; /* Match the width of the chat container */
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Slight red color for background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Center the submit button */
+    margin: 10px auto; /* Center the submit button */
+}
+
+#user-input {
+    margin-top: 10px;
+    text-align: center; /* Center the form */
+}
