@@ -1,4 +1,4 @@
-# FinAssist
+# BYOB
 
 ## How to Run the Project
 
