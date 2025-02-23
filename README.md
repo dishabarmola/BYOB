@@ -30,7 +30,7 @@ npm run build
 ```
 
 2. Preview the production build.
-   ```bash
+```bash
 npm run preview
 ```
    
